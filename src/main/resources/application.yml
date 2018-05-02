@@ -1,0 +1,13 @@
+server:
+  contextPath: /uaa
+
+security:
+  user:
+    password: password
+  ignored: /css/**,/js/**,/favicon.ico,/webjars/**
+
+logging:
+  level:
+    org:
+      springframework: DEBUG
+        #security: DEBUG
